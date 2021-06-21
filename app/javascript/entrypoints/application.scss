@@ -4,8 +4,9 @@
 
 @import "font-awesome";
 @import "bootstrap";
-@import "./sticky-footer";
-@import "./announcements";
+@import "~/stylesheets/sticky-footer";
+@import "~/stylesheets/announcements";
+@import "~/stylesheets/mail";
 
 // Fixes bootstrap nav-brand container overlap
 @include media-breakpoint-down(xs) {
