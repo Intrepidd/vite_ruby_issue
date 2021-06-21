@@ -1,24 +1,11 @@
-# README
+# How to reproduce
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+- clone this repo
+- run bundle and yarn
+- run migrations (it's sqlite)
+- run `rails s -p 1111` (port is important)
+- Head over to http://localhost:1111/rails/mailers/foo_mailer/bar
+- You should see the text in red
+- Run `vite dev`
+- Refresh the page
+- The text is not red anymore :(
